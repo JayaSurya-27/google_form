@@ -3,6 +3,22 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <div
+        className="container"
+        style={{ borderTop: "10px solid rgb(103, 58, 183)", padding: "0px" }}
+      >
+        <h1 className="index_1">Assignment Task</h1>
+        <br></br>
+        <span className="index_2">210020040@iitdh.ac.in</span>
+        <span className="index_3">Switch Accounts</span>
+
+        <p className="index_4">
+          The name and photo associated with your Google Account will be
+          recorded when you upload files and submit this form. Your email
+          address is not part of your response.
+        </p>
+        <div className="required index_5">* Indicates required question</div>
+      </div>
       <div className="container">
         <h3>
           MCQ <span className="required">*</span>
@@ -83,7 +99,11 @@ function App() {
         </h3>
         <div
           className="options"
-          style={{ marginTop: "70px", justifyContent: "space-between" , marginBottom:"20px"}}
+          style={{
+            marginTop: "70px",
+            justifyContent: "space-between",
+            marginBottom: "20px",
+          }}
         >
           <label>Worst</label>
           <label className="linear">1</label>
@@ -249,6 +269,16 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="last">
+        <span>
+          <button className="submit">Submit</button>
+        </span>
+        <span className="progress"></span>
+        <span>page 1 of 1</span>
+        <span>
+          <button className="clear">Clear form</button>
+        </span>
       </div>
     </div>
   );

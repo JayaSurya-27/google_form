@@ -95,7 +95,7 @@ h3 {
 
 .shortAnswer {
   width: 40%;
-  height: 100%ho;
+  height: 100%;
   border: none;
   outline: none;
   border-bottom: 1px solid #ccc;
@@ -192,4 +192,102 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.index_1 {
+  border-bottom: 1px solid rgb(172, 173, 175);
+  font-size: 24pt;
+  padding: 12px 18px;
+  font-family: "docs-Roboto", Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 40px;
+  color: #202124;
+  line-height: 135%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+.index_2 {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: #5f6368;
+  padding: 12px 18px;
+}
+
+.index_3 {
+  padding: 12px 18px;
+  color: #1a73e8;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+
+.index_4 {
+  padding: 12px 18px;
+  color: #5f6368;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  margin-top: 12px;
+}
+.index_5 {
+  padding: 12px 18px;
+  font-size: 14px;
+  border-top: 1px solid rgb(172, 173, 175);
+}
+.last {
+  max-width: 630px;
+  width: 100%;
+  height: min-content;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  padding: 0px 24px;
+  background-color: rgb(103, 58, 183);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+  border: none;
+}
+
+.progress {
+  width: 100%;
+  max-width: 200px;
+  background: #34a853;
+  border-radius: 40px;
+  height: 10px;
+  margin-right: -50px;
+}
+
+.clear {
+  padding: 0px 24px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(103, 58, 183);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 36px;
 }
